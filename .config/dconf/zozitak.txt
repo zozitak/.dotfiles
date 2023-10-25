@@ -1,0 +1,233 @@
+[apps/update-manager]
+first-run=false
+launch-count=6
+launch-time=int64 1697800093
+show-details=false
+window-height=400
+window-width=593
+
+[com/ubuntu/update-notifier]
+release-check-time=uint32 1697704404
+
+[org/gnome/calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-position=(26, 23)
+word-size=64
+
+[org/gnome/control-center]
+last-panel='power'
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'Sundry', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Sundry]
+apps=['alacarte.desktop', 'authconfig.desktop', 'ca.desrt.dconf-editor.desktop', 'fedora-release-notes.desktop', 'firewall-config.desktop', 'flash-player-properties.desktop', 'gconf-editor.desktop', 'gnome-abrt.desktop', 'gnome-power-statistics.desktop', 'ibus-setup-anthy.desktop', 'ibus-setup.desktop', 'ibus-setup-hangul.desktop', 'ibus-setup-libbopomofo.desktop', 'ibus-setup-libpinyin.desktop', 'ibus-setup-m17n.desktop', 'ibus-setup-typing-booster.desktop', 'im-chooser.desktop', 'itweb-settings.desktop', 'jhbuild.desktop', 'javaws.desktop', 'java-1.7.0-openjdk-jconsole.desktop', 'java-1.7.0-openjdk-policytool.desktop', 'log4j-chainsaw.desktop', 'log4j-logfactor5.desktop', 'nm-connection-editor.desktop', 'orca.desktop', 'setroubleshoot.desktop', 'system-config-date.desktop', 'system-config-firewall.desktop', 'system-config-keyboard.desktop', 'system-config-language.desktop', 'system-config-printer.desktop', 'system-config-users.desktop', 'vino-preferences.desktop']
+categories=['X-GNOME-Sundry']
+name='X-GNOME-Sundry.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['org.gnome.baobab.desktop', 'deja-dup-preferences.desktop', 'eog.desktop', 'evince.desktop', 'org.gnome.FileRoller.desktop', 'gnome-calculator.desktop', 'gnome-dictionary.desktop', 'org.gnome.Characters.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Screenshot.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gnome-tweak-tool.desktop', 'gucharmap.desktop', 'seahorse.desktop', 'vinagre.desktop', 'yelp.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/zozitak/.local/share/backgrounds/2023-08-31-23-49-52-QiLb3D.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'hu')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-light'
+gtk-theme='Yaru'
+icon-theme='Yaru'
+
+[org/gnome/desktop/notifications]
+application-children=['update-manager', 'org-gnome-nautilus', 'snap-store-ubuntu-software-local-file', 'apport-gtk', 'gnome-power-panel', 'discord-discord', 'gnome-printers-panel', 'google-chrome', 'snap-store-ubuntu-software']
+
+[org/gnome/desktop/notifications/application/apport-gtk]
+application-id='apport-gtk.desktop'
+
+[org/gnome/desktop/notifications/application/discord-discord]
+application-id='discord_discord.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-printers-panel]
+application-id='gnome-printers-panel.desktop'
+
+[org/gnome/desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/snap-store-ubuntu-software-local-file]
+application-id='snap-store_ubuntu-software-local-file.desktop'
+
+[org/gnome/desktop/notifications/application/snap-store-ubuntu-software]
+application-id='snap-store_ubuntu-software.desktop'
+
+[org/gnome/desktop/notifications/application/update-manager]
+application-id='update-manager.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=false
+
+[org/gnome/desktop/privacy]
+disable-microphone=false
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/zozitak/.local/share/backgrounds/2023-08-31-23-49-52-QiLb3D.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 0
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[org/gnome/evince]
+document-directory=@ms 'file:///home/zozitak/DnD/Quant%20Peregrin%20(Peri)'
+
+[org/gnome/evince/default]
+window-ratio=(1.0032679738562091, 0.75757575757575757)
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=451
+show-path=false
+sort-method='name'
+sort-type='descending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=965
+
+[org/gnome/gedit/plugins]
+active-plugins=['modelines', 'spell', 'docinfo', 'time', 'filebrowser']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/zozitak/Projects'
+
+[org/gnome/gedit/preferences/editor]
+scheme='Yaru'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[org/gnome/nautilus/list-view]
+default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency', 'starred', 'detailed_type']
+default-visible-columns=['name', 'size', 'date_modified', 'starred']
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(924, 1006)
+maximized=false
+
+[org/gnome/settings-daemon/peripherals/keyboard]
+numlock-state='on'
+
+[org/gnome/settings-daemon/plugins/power]
+idle-dim=false
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+app-picker-layout=[{'software-properties-drivers.desktop': <{'position': <0>}>, 'blender_blender.desktop': <{'position': <1>}>, 'calibre-gui.desktop': <{'position': <2>}>, 'chromium_chromium.desktop': <{'position': <3>}>, 'cmatrix.desktop': <{'position': <4>}>, 'chrome-kefjledonklijopmnomlcbpllchaibag-Default.desktop': <{'position': <5>}>, 'org.gnome.Evince.desktop': <{'position': <6>}>, 'org.gnome.Calculator.desktop': <{'position': <7>}>, 'chrome-mpnpojknpmmopombnjdcgaaiekajbnjb-Default.desktop': <{'position': <8>}>, 'org.gnome.gedit.desktop': <{'position': <9>}>, 'calibre-ebook-edit.desktop': <{'position': <10>}>, 'calibre-ebook-viewer.desktop': <{'position': <11>}>, 'firefox_firefox.desktop': <{'position': <12>}>, 'chrome-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default.desktop': <{'position': <13>}>, 'gimp_gimp.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'chrome-aghbiahbpaijignceidepookljebhfak-Default.desktop': <{'position': <16>}>, 'org.gnome.eog.desktop': <{'position': <17>}>, 'display-im6.q16.desktop': <{'position': <18>}>, 'inkscape_inkscape.desktop': <{'position': <19>}>, 'gnome-language-selector.desktop': <{'position': <20>}>, 'libreoffice-startcenter.desktop': <{'position': <21>}>, 'libreoffice-base.desktop': <{'position': <22>}>, 'libreoffice-calc.desktop': <{'position': <23>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'libreoffice-impress.desktop': <{'position': <1>}>, 'libreoffice-math.desktop': <{'position': <2>}>, 'libreoffice-writer.desktop': <{'position': <3>}>, 'calibre-lrfviewer.desktop': <{'position': <4>}>, 'org.gnome.seahorse.Application.desktop': <{'position': <5>}>, 'org.gnome.PowerStats.desktop': <{'position': <6>}>, 'gnome-control-center.desktop': <{'position': <7>}>, 'chrome-fhihpiojkbmbpdjeoajapmgkhlnakfjf-Default.desktop': <{'position': <8>}>, 'software-properties-gtk.desktop': <{'position': <9>}>, 'update-manager.desktop': <{'position': <10>}>, 'gnome-session-properties.desktop': <{'position': <11>}>, 'Sundry': <{'position': <12>}>, 'gnome-system-monitor_gnome-system-monitor.desktop': <{'position': <13>}>, 'snap-store_ubuntu-software.desktop': <{'position': <14>}>, 'virtualbox.desktop': <{'position': <15>}>, 'vlc.desktop': <{'position': <16>}>, 'chrome-agimnkijcaahngcdmfeangaknmldooml-Default.desktop': <{'position': <17>}>}]
+favorite-apps=['google-chrome.desktop', 'org.gnome.Terminal.desktop', 'code_code.desktop', 'org.gnome.Nautilus.desktop', 'discord_discord.desktop']
+welcome-dialog-last-shown-version='42.9'
+
+[org/gnome/shell/extensions/dash-to-dock]
+dash-max-icon-size=48
+extend-height=true
+show-mounts=true
+show-mounts-network=false
+show-mounts-only-mounted=true
+show-trash=false
+
+[org/gnome/shell/extensions/ding]
+show-home=false
+
+[org/gnome/terminal/legacy]
+schema-version=uint32 3
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=173
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(1074, 806)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=161
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(26, 23)
+window-size=(1369, 902)
+
+[system/locale]
+region='en_US.UTF-8'
