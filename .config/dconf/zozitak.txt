@@ -1,7 +1,7 @@
 [apps/update-manager]
 first-run=false
-launch-count=6
-launch-time=int64 1697800093
+launch-count=7
+launch-time=int64 1698751862
 show-details=false
 window-height=400
 window-width=593
@@ -64,7 +64,7 @@ gtk-theme='Yaru'
 icon-theme='Yaru'
 
 [org/gnome/desktop/notifications]
-application-children=['update-manager', 'org-gnome-nautilus', 'snap-store-ubuntu-software-local-file', 'apport-gtk', 'gnome-power-panel', 'discord-discord', 'gnome-printers-panel', 'google-chrome', 'snap-store-ubuntu-software']
+application-children=['update-manager', 'org-gnome-nautilus', 'snap-store-ubuntu-software-local-file', 'apport-gtk', 'gnome-power-panel', 'discord-discord', 'gnome-printers-panel', 'google-chrome', 'snap-store-ubuntu-software', 'io-snapcraft-sessionagent']
 
 [org/gnome/desktop/notifications/application/apport-gtk]
 application-id='apport-gtk.desktop'
@@ -81,6 +81,9 @@ application-id='gnome-printers-panel.desktop'
 [org/gnome/desktop/notifications/application/google-chrome]
 application-id='google-chrome.desktop'
 
+[org/gnome/desktop/notifications/application/io-snapcraft-sessionagent]
+application-id='io.snapcraft.SessionAgent.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
 
@@ -94,7 +97,7 @@ application-id='snap-store_ubuntu-software.desktop'
 application-id='update-manager.desktop'
 
 [org/gnome/desktop/peripherals/keyboard]
-numlock-state=false
+numlock-state=true
 
 [org/gnome/desktop/privacy]
 disable-microphone=false
@@ -148,7 +151,7 @@ active-plugins=['modelines', 'spell', 'docinfo', 'time', 'filebrowser']
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
 tree-view=true
-virtual-root='file:///home/zozitak/Projects'
+virtual-root='file:///home/zozitak/Projects/cica/tasks/docker'
 
 [org/gnome/gedit/preferences/editor]
 scheme='Yaru'
@@ -185,7 +188,7 @@ sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
 app-picker-layout=[{'software-properties-drivers.desktop': <{'position': <0>}>, 'blender_blender.desktop': <{'position': <1>}>, 'calibre-gui.desktop': <{'position': <2>}>, 'chromium_chromium.desktop': <{'position': <3>}>, 'cmatrix.desktop': <{'position': <4>}>, 'chrome-kefjledonklijopmnomlcbpllchaibag-Default.desktop': <{'position': <5>}>, 'org.gnome.Evince.desktop': <{'position': <6>}>, 'org.gnome.Calculator.desktop': <{'position': <7>}>, 'chrome-mpnpojknpmmopombnjdcgaaiekajbnjb-Default.desktop': <{'position': <8>}>, 'org.gnome.gedit.desktop': <{'position': <9>}>, 'calibre-ebook-edit.desktop': <{'position': <10>}>, 'calibre-ebook-viewer.desktop': <{'position': <11>}>, 'firefox_firefox.desktop': <{'position': <12>}>, 'chrome-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default.desktop': <{'position': <13>}>, 'gimp_gimp.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'chrome-aghbiahbpaijignceidepookljebhfak-Default.desktop': <{'position': <16>}>, 'org.gnome.eog.desktop': <{'position': <17>}>, 'display-im6.q16.desktop': <{'position': <18>}>, 'inkscape_inkscape.desktop': <{'position': <19>}>, 'gnome-language-selector.desktop': <{'position': <20>}>, 'libreoffice-startcenter.desktop': <{'position': <21>}>, 'libreoffice-base.desktop': <{'position': <22>}>, 'libreoffice-calc.desktop': <{'position': <23>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'libreoffice-impress.desktop': <{'position': <1>}>, 'libreoffice-math.desktop': <{'position': <2>}>, 'libreoffice-writer.desktop': <{'position': <3>}>, 'calibre-lrfviewer.desktop': <{'position': <4>}>, 'org.gnome.seahorse.Application.desktop': <{'position': <5>}>, 'org.gnome.PowerStats.desktop': <{'position': <6>}>, 'gnome-control-center.desktop': <{'position': <7>}>, 'chrome-fhihpiojkbmbpdjeoajapmgkhlnakfjf-Default.desktop': <{'position': <8>}>, 'software-properties-gtk.desktop': <{'position': <9>}>, 'update-manager.desktop': <{'position': <10>}>, 'gnome-session-properties.desktop': <{'position': <11>}>, 'Sundry': <{'position': <12>}>, 'gnome-system-monitor_gnome-system-monitor.desktop': <{'position': <13>}>, 'snap-store_ubuntu-software.desktop': <{'position': <14>}>, 'virtualbox.desktop': <{'position': <15>}>, 'vlc.desktop': <{'position': <16>}>, 'chrome-agimnkijcaahngcdmfeangaknmldooml-Default.desktop': <{'position': <17>}>}]
-favorite-apps=['google-chrome.desktop', 'org.gnome.Terminal.desktop', 'code_code.desktop', 'org.gnome.Nautilus.desktop', 'discord_discord.desktop']
+favorite-apps=['google-chrome.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'discord_discord.desktop']
 welcome-dialog-last-shown-version='42.9'
 
 [org/gnome/shell/extensions/dash-to-dock]
